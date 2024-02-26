@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0;
+    padding: 20px; 
+    background-color: #f4f4f4; 
+    height: 100vh; 
+}
+
+.container {
+    text-align: center;
+    width: 90%; 
+    max-width: 600px; 
+    background-color: #ffffff;
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5); 
+    padding: 20px; 
+    margin: 20px; 
+}
+
+label, button {
+    margin-top: 20px; 
+    display: block;
+    font-size: 1rem; 
+}
+
+input[type=number], select {
+    margin-top: 10px;
+    width: calc(100% - 20px); 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 5px; 
+    background-color: #ffffff;
+    color: white; 
+    transition: background-color 0.3s; 
+}
+.buttons-container {
+    display: flex;
+    justify-content: center;    
+    gap: 10px; 
+}
+
+
+button:hover {
+    background-color: #000000;
+}
+
+button.custColor {
+    background-color: #424141; 
+}
+
+button.custColor:hover {
+    background-color: #000000;
+}
+
+button.randColor {
+    background-color: #424141; 
+}
+
+button.randColor:hover {
+    background-color: #000000;
+}
+
+img {
+    width: 200px; 
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 5px; 
+    margin-top: 20px; 
+}
